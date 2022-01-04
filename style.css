@@ -1,0 +1,45 @@
+ header {
+  color: rgb(0, 217, 255);
+  text-shadow: 2px 2px rgb(255, 0, 234);
+  font-family: "Impact";
+  font-size: 40px;
+ }
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  font-family: "Papyrus", cursive;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-shadow: 2px 2px greenyellow;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(251, 255, 0);
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  width: 33.33%;
+}
+
+.row {
+  display: flex;
+}
+
+body {
+  background-image: url("images/background3.png"), url("images/background.gif");
+  background-repeat: repeat-x, repeat;
+  background-size: 300px 110px;
+  color: #00FF41;
+  text-shadow: 2px 2px yellow;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: larger;
+}
